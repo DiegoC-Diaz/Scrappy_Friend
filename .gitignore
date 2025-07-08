@@ -1,0 +1,79 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+.env/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+Python.h
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Archivos de caché específicos de IDEs y editores
+.idea/             # IntelliJ IDEA / PyCharm
+.vscode/           # VS Code
+*.iml              # IntelliJ IDEA / PyCharm
+.project           # Eclipse
+.pydevproject      # PyDev
+.DS_Store          # macOS
+.cache/            # General cache directory
+.pytest_cache/     # pytest cache
+.mypy_cache/       # mypy cache
+.ruff_cache/       # Ruff linter cache
+
+# Archivos de logs y bases de datos
+*.log
+*.sqlite3
+*.db
+
+# Archivos de configuración de sistema operativo
+.Trash-*
+thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos de configuración de Docker
+.dockerignore
+
+# Archivos de configuración de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de datos grandes o generados
+*.zip
+*.tar.gz
+*.rar
+*.csv
+*.json
+*.xml
+*.txt # Considera si quieres ignorar todos los .txt o solo algunos específicos
+
+# Archivos de configuración de dependencias (si no se gestionan con pip freeze)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de cobertura de código
+.coverage
+.coverage.*
+
+# Archivos de documentación (si se generan automáticamente)
+docs/_build/
+
+# Archivos de configuración de CI/CD (si no son parte del repositorio)
+.travis.yml
+.gitlab-ci.yml
+appveyor.yml
+.circleci/
+
+# Archivos de configuración de secretos (si los tienes)
+.env
+.flaskenv
+*.key
+*.pem
+*.crt
