@@ -39,5 +39,7 @@ es posible que se deba a ha este error:
     + FullyQualifiedErrorId : UnauthorizedAccess
 ```
 
+Nota: Despues de haber activbado el envrionemnt deberan correr pip install
 
-
+## Librerias 
+pip install selenium
