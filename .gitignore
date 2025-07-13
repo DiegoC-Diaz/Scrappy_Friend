@@ -77,3 +77,4 @@ appveyor.yml
 *.key
 *.pem
 *.crt
+./gemini.md
