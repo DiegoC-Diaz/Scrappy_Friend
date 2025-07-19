@@ -5,12 +5,6 @@ cached_api_url = None
 
 def get_files_silabo(api_key,api_url,course_id):
     silabus_files=[]
-    global cached_api_url
-    if cached_api_url is None:
-        cached_api_url = api_url
-    elif cached_api_url != api_url:
-        print("Warning: API URL changed. Using cached URL.")
-
     canvas=Canvas(api_url,api_key)
 
     if canvas:
@@ -29,7 +23,7 @@ def get_files_silabo(api_key,api_url,course_id):
 
 def get_tasks():
     # Logic to get tasks from Canvßas
-    return [{"task_name": "ßtask1"}]
+    return [{"task_name": "task1"}]
 
 def get_scores():
     # Logic to get scores from Canvas
