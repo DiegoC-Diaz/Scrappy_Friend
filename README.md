@@ -80,3 +80,7 @@ Algunas de las librerias que usare son fastapi, canvassync, canvasapi
 Estado del proyecto: Acutalmente he creado una API usando fastapi y tengo lista la estructura del proyecto sin embargo necesito todavia trabajar en los siguientes:
 que tendran ofrecer funciones como obtener datos del estudiante, los cursos y mnodulos dentro de los curos que es donde se encuentran los archivos.
 
+## Comandos:
+
+Usando la powershell es posible descargar los archivos:
+ curl -Uri "https://unitechonduras.instructure.com/files/8510683/download?download_frd=1&verifier=Zh6kxtyrjNDTWSe6DiRx2ICQ7RVMXpbqhzLPzuNE" -OutFile ./silabus.pdf

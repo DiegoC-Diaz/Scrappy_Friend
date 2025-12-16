@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from typing import Optional, List
 
 class CourseFile(BaseModel):
     file_name: str
@@ -8,8 +9,14 @@ class CourseTask(BaseModel):
     task_name: str
 
 class CourseScore(BaseModel):
-    score: int
+    score: Optional[float]
 
+class Assignment(BaseModel):
+    id: int
+    name: str
+    due_at: Optional[str]
+    points_possible: Optional[float]
+    submission_types: list
 
 class Course(BaseModel):
     course_id: int 
@@ -25,8 +32,8 @@ class FileRequest(BaseModel):
 class User(BaseModel):
     name: str
     api_token: str
-    api_url: str
-    status: str
+    user_id: int = None
+
 
 class AuthorizationResponse(BaseModel):
     status:bool

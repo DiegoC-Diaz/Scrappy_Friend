@@ -1,4 +1,4 @@
-pydantic
-"fastapi[standard]"
+pydantic 
+fastapi[standard]
 CanvasSync
 canvasapi
